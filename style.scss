@@ -1,98 +1,30 @@
-$comfortaa:'Comfortaa', cursive;
-$montserrat:'Montserrat', sans-serif;
-$roboto:'Roboto', sans-serif;
+$Comfortaa :  'Comfortaa', cursive;
+$Montserrat :  'Montserrat', sans-serif;
+$Roboto :  'Roboto', sans-serif;
 .main_block{
     width: 100%;
-    height: 1056px;
+    height:1056px;
     background: url(BG.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    position: absolute;
-    &_header{
+    header{
         width: 1220px;
         height: 52px;
-        margin: 55px auto;
+        margin:65px auto ;
         display: flex;
         justify-content: space-between;
-        align-items: center;
-        &_logoNav{
-            width: 815px;
-            height: 40px;
+        &_logoNav_nav{
             display: flex;
-            justify-content: space-between;
             align-items: center;
-                &_logo{
-                    font-family: "Confortaa";
-                    font-style: normal;
-                    font-weight: 700;
-                    font-size: 36;
-                    line-height: 40px;
-                    text-transform:uppercase ;
-                    color: #ffffff;
-                }
-                &_nav{
-                    width: 300px;
-                    display: flex;
-                    justify-content: space-between;
-                    font-style: normal;
-                    font-weight: 700;
-                    font-size: 20px;
-                    line-height: 22px;
-                    color: #ffffff;
-                }
-            }
-            &_auth{
-                width: 200px;
-                display: flex;
-                justify-content: space-between;
-                &_login{
-                    border:none;
-                    background:none;
-                    font-style:normal;
-                    font-weight: 500;
-                    font-size: 13.4237px;
-                    line-height: 16px;
-                    text-align: center;
-                    letter-spacing: 1.25px;
-                    text-transform: uppercase;
-                    color: #FFFFFF;
-                }
-                &_sign-in{
-                    height: 36px;
-                    width: 132px;
-                    border: 1px solid rgb(0, 0, 0, 0.12) ;
-                    background:white ;
-                    border-radius: 12px;
-                    font-style: normal;
-                    font-weight: 500;
-                    font-size: 13.4237px;
-                    line-height: 16px;
-                    text-align: center;
-                    letter-spacing: 1.25px;
-                    text-transform: uppercase;
-                    color: #BB6DF3;
-                }
-            }     
-        }
-        &_home{
-            width: 579px;
-            height: 534px;
-            margin-left:335px ;
-            margin-top: 200px;
-            display: flex;
-            &_homeP{
-                width: 530px;
-            }
-            &_PersonalP{
-                width: 530px;
-                height:140px ;
-                font-style: normal;
-                font-weight: 800;
-                font-size: 72px;
-                line-height: 70px;
-                color: #3B668D;
-                margin-top:40px ;
+            &_logo{
+                font-family: $Comfortaa;
+                font-weight: 700;
+                font-size: 36px;
+                line-height: 40px;
+
+                color: #FFFFFF;
             }
         }
-    }   
+    }
+}
